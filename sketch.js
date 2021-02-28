@@ -46,7 +46,7 @@ function draw() {
   
   drawSprites();
 
-	bobObject1.display();
+  bobObject1.display();
 	bobObject2.display();
 	bobObject3.display();
 	bobObject4.display();
@@ -63,5 +63,12 @@ function draw() {
 
 function keyPressed() { 
 	if (keyCode === UP_ARROW) { 
-		Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-100,y:-100}); } 
+		Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-730,y:0}); 
+	}
+	if (keyCode === DOWN_ARROW) { 
+		Matter.Body.applyForce(bobObject5.body,bobObject5.body.position,{x:730,y:0}); } 
 } 
+
+
+
+ 

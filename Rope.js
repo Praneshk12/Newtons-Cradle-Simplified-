@@ -21,7 +21,8 @@ class Rope {
         var pointB= this.Rope.bodyB.position;
 
         //stroke(0);
-        strokeWeight (1)
+        strokeWeight (3)
+        stroke("black");
         var Anchor1X = pointA.x
         var Anchor1Y = pointA.y
         
